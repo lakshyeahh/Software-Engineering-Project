@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "URL Checker",
+  "version": "1.0",
+  "description": "Check if a URL is phishing or legitimate.",
+  "permissions": ["tabs", "activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
